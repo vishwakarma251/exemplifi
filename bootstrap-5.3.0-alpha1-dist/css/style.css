@@ -1,0 +1,238 @@
+/* Created variables for common color */
+:root {
+  --dark-blue: #001489;
+  --havelock-blue: #57a7df;
+  --geraldine: #f98f76;
+}
+/* Header customization */
+.navbar-expand-lg {
+  background-color: #001489;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  background-color: #009cfe;
+  border-radius: 0;
+}
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before,
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 1.5em;
+  width: 2px;
+  background-color: var(--bs-black);
+  transform: rotate(45deg);
+}
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  transform: rotate(-45deg);
+}
+.navbar .navbar-toggler {
+  box-shadow: none;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link,
+.dropdown:hover .nav-link {
+  color: var(--havelock-blue);
+}
+.navbar-expand-lg .navbar-nav .nav-link,
+.navbar-brand {
+  color: var(--bs-white);
+}
+.navbar-nav .nav-item {
+  position: relative;
+}
+.navbar-nav .nav-item::after {
+  content: "";
+  width: 1px;
+  height: 40%;
+  background: var(--havelock-blue);
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  opacity: 0.4;
+}
+.navbar-nav .nav-item:last-child::after {
+  content: "";
+  background: transparent;
+}
+/* Navbar icon CSS Start Here */
+.icon {
+  display: block;
+  margin: auto;
+  height: 32px;
+  width: 32px;
+}
+.icon-product {
+  background: url("../../Reynolds-Assets/SVG/Products.svg") no-repeat center
+    center;
+}
+.icon-recipes {
+  background: url("../../Reynolds-Assets/SVG/Recipes.svg") no-repeat center
+    center;
+}
+.icon-tips-how-tos {
+  background: url("../../Reynolds-Assets/SVG/Tips.svg") no-repeat center center;
+}
+.icon-holidays {
+  background: url("../../Reynolds-Assets/SVG/Holidays.svg") no-repeat center
+    center;
+}
+.icon-our-story {
+  background: url("../../Reynolds-Assets/SVG/Story.svg") no-repeat center center;
+}
+.icon-search {
+  background: url("../../Reynolds-Assets/SVG/search.svg") no-repeat center
+    center;
+  position: absolute;
+}
+/* Input Search Customization */
+.form-control-search {
+  background-color: var(--geraldine);
+  border: 0;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+
+/* Social Media links */
+.social-links-section {
+  background-color: var(--bs-white);
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+.social-links-section ul {
+  display: flex;
+  align-items: center;
+}
+.social-links-section ul li {
+  padding: 0 0.5rem;
+}
+.social-links-section ul li:first-child {
+  padding-left: 0;
+}
+.icon-social {
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+.icon-facebook {
+  background: url("../../Reynolds-Assets/SVG/facebook.svg") no-repeat center
+    center;
+}
+.icon-twitter {
+  background: url("../../Reynolds-Assets/SVG/twitter.svg") no-repeat center
+    center;
+}
+.icon-instagram {
+  background: url("../../Reynolds-Assets/SVG/instagram.svg") no-repeat center
+    center;
+}
+.icon-youtube {
+  background: url("../../Reynolds-Assets/SVG/youtube.svg") no-repeat center
+    center;
+}
+.icon-pinterest {
+  background: url("../../Reynolds-Assets/SVG/pinterest.svg") no-repeat center
+    center;
+}
+/* For Mobile resolution */
+.icon-facebook-white {
+  background: url("../../Reynolds-Assets/SVG/facebook-white.svg") no-repeat
+    center center;
+}
+.icon-twitter-white {
+  background: url("../../Reynolds-Assets/SVG/twitter-white.svg") no-repeat
+    center center;
+}
+.icon-instagram-white {
+  background: url("../../Reynolds-Assets/SVG/instagram-white.svg") no-repeat
+    center center;
+}
+.icon-youtube-white {
+  background: url("../../Reynolds-Assets/SVG/youtube-white.svg") no-repeat
+    center center;
+}
+.icon-pinterest-white {
+  background: url("../../Reynolds-Assets/SVG/pinterest-white.svg") no-repeat
+    center center;
+}
+main {
+  min-height: 100vh;
+}
+/* Media query for responsive resolution */
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    flex-grow: initial;
+  }
+  .dropdown:hover .dropdown-menu,
+  .dropdown-menu .show {
+    display: flex;
+    width: 70vw;
+    padding: 2rem;
+    text-align: center;
+  }
+  .dropdown-menu > .row {
+    align-items: flex-end;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .xl-search,
+  .xl-social {
+    display: block;
+  }
+  .xs-search,
+  .xs-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sticky-sm-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .dropdown .dropdown-menu.show {
+    padding: 1rem;
+  }
+  .navbar-toggler {
+    border-color: var(--bs-white);
+  }
+  .navbar-toggler-icon {
+    background-color: var(--bs-white);
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+  }
+  .navbar-nav .nav-item::after {
+    content: "";
+    background: transparent;
+  }
+  .icon {
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+  .social-links-section {
+    background-color: var(--dark-blue);
+    display: block;
+    position: static;
+    width: 100%;
+  }
+  .xs-search,
+  .xs-social {
+    display: block;
+  }
+  .xl-search,
+  .xl-social {
+    display: none;
+  }
+}
