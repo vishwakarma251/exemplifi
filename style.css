@@ -65,22 +65,22 @@
   width: 32px;
 }
 .icon-product {
-  background: url("Reynolds-Assets/SVG/Products.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/Products.svg") no-repeat center center;
 }
 .icon-recipes {
-  background: url("Reynolds-Assets/SVG/Recipes.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/Recipes.svg") no-repeat center center;
 }
 .icon-tips-how-tos {
-  background: url("Reynolds-Assets/SVG/Tips.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/Tips.svg") no-repeat center center;
 }
 .icon-holidays {
-  background: url("Reynolds-Assets/SVG/Holidays.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/Holidays.svg") no-repeat center center;
 }
 .icon-our-story {
-  background: url("Reynolds-Assets/SVG/Story.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/Story.svg") no-repeat center center;
 }
 .icon-search {
-  background: url("Reynolds-Assets/SVG/search.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/search.svg") no-repeat center center;
   cursor: pointer;
   position: absolute;
 }
@@ -120,39 +120,39 @@
   width: 15px;
 }
 .icon-facebook {
-  background: url("Reynolds-Assets/SVG/facebook.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/facebook.svg") no-repeat center center;
 }
 .icon-twitter {
-  background: url("Reynolds-Assets/SVG/twitter.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/twitter.svg") no-repeat center center;
 }
 .icon-instagram {
-  background: url("Reynolds-Assets/SVG/instagram.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/instagram.svg") no-repeat center center;
 }
 .icon-youtube {
-  background: url("Reynolds-Assets/SVG/youtube.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/youtube.svg") no-repeat center center;
 }
 .icon-pinterest {
-  background: url("Reynolds-Assets/SVG/pinterest.svg") no-repeat center center;
+  background: url("./Reynolds-Assets/SVG/pinterest.svg") no-repeat center center;
 }
 /* For Mobile resolution */
 .icon-facebook-white {
-  background: url("Reynolds-Assets/SVG/facebook-white.svg") no-repeat center
+  background: url("./Reynolds-Assets/SVG/facebook-white.svg") no-repeat center
     center;
 }
 .icon-twitter-white {
-  background: url("Reynolds-Assets/SVG/twitter-white.svg") no-repeat center
+  background: url("./Reynolds-Assets/SVG/twitter-white.svg") no-repeat center
     center;
 }
 .icon-instagram-white {
-  background: url("Reynolds-Assets/SVG/instagram-white.svg") no-repeat center
+  background: url("./Reynolds-Assets/SVG/instagram-white.svg") no-repeat center
     center;
 }
 .icon-youtube-white {
-  background: url("Reynolds-Assets/SVG/youtube-white.svg") no-repeat center
+  background: url("./Reynolds-Assets/SVG/youtube-white.svg") no-repeat center
     center;
 }
 .icon-pinterest-white {
-  background: url("Reynolds-Assets/SVG/pinterest-white.svg") no-repeat center
+  background: url("./Reynolds-Assets/SVG/pinterest-white.svg") no-repeat center
     center;
 }
 
